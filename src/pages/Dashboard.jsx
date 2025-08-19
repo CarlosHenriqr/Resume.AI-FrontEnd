@@ -143,12 +143,12 @@ export default function Dashboard() {
                     onChange={(e) => setInputText(e.target.value)}
                     placeholder="Cole seu texto aqui... (mínimo 50 caracteres)"
                     className="min-h-[200px] resize-none"
-                    maxLength={10000}
+                    maxLength={2000} 
                   />
                   
                   <div className="flex justify-between items-center">
                     <span className="text-sm text-gray-500">
-                      {inputText.length}/10000 caracteres
+                      {inputText.length}/2000 caracteres
                     </span>
                     
                     <Button
